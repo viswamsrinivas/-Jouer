@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1608433059177' stop='1608433059720'>
+    <name>checking the primary content on home page</name>
+    <title>checking the primary content on home page</title>
+    <test-cases>
+        <test-case start='1608433059177' status='broken' stop='1608433059719'>
+            <name>check the menu link</name>
+            <title>check the menu link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-87.0.4280.88'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Node is either not visible or not an HTMLElement</message>
+                <stack-trace>Node is either not visible or not an HTMLElement
+                Error: Node is either not visible or not an HTMLElement
+                    at ElementHandle._clickablePoint (/Users/Srinivas/Documents/December/node_modules/puppeteer-core/lib/cjs/puppeteer/common/JSHandle.js:337:19)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at async ElementHandle.click (/Users/Srinivas/Documents/December/node_modules/puppeteer-core/lib/cjs/puppeteer/common/JSHandle.js:390:26)
+                    at Context.&lt;anonymous> (/Users/Srinivas/Documents/December/test/specs/one.test.js:7:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

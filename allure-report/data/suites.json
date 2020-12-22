@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "My first websriverio test case",
+    "children" : [ {
+      "name" : "first",
+      "uid" : "c4bb175515bc80a2",
+      "parentUid" : "7e3aa8165a82e2d9193807059deaee02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608420436519,
+        "stop" : 1608420442084,
+        "duration" : 5565
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-87.0.4280.88" ]
+    } ],
+    "uid" : "7e3aa8165a82e2d9193807059deaee02"
+  } ]
+}

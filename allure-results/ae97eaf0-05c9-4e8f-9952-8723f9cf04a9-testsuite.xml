@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1608488562043' stop='1608488562629'>
+    <name>checking the primary content on home page</name>
+    <title>checking the primary content on home page</title>
+    <test-cases>
+        <test-case start='1608488562043' status='broken' stop='1608488562628'>
+            <name>check the menu link</name>
+            <title>check the menu link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-87.0.4280.88'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected_list is not defined</message>
+                <stack-trace>ReferenceError: expected_list is not defined
+                    at Context.&lt;anonymous> (/Users/Srinivas/Documents/December/test/specs/home.test.js:10:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

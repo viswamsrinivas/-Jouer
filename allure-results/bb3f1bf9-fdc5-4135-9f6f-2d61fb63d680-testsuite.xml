@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1608504537965' stop='1608504538602'>
+    <name>checking the primary content on home page</name>
+    <title>checking the primary content on home page</title>
+    <test-cases>
+        <test-case start='1608504537965' status='passed' stop='1608504538601'>
+            <name>check the menu link options</name>
+            <title>check the menu link options</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-87.0.4280.88'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

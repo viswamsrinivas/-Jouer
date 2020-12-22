@@ -1,0 +1,58 @@
+{
+  "uid" : "c4bb175515bc80a2",
+  "name" : "first",
+  "fullName" : "My first websriverio test case.first",
+  "historyId" : "bdd01224a06d918703e4517561afa242",
+  "time" : {
+    "start" : 1608420436519,
+    "stop" : 1608420442084,
+    "duration" : 5565
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My first websriverio test case"
+  }, {
+    "name" : "testClass",
+    "value" : "My first websriverio test case"
+  }, {
+    "name" : "testMethod",
+    "value" : "first"
+  }, {
+    "name" : "package",
+    "value" : "My first websriverio test case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c4bb175515bc80a2.json",
+  "parameterValues" : [ "Chrome-87.0.4280.88" ]
+}

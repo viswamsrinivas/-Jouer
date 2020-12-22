@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1608506254108' stop='1608506264762'>
+    <name>Checking the content on project page</name>
+    <title>Checking the content on project page</title>
+    <test-cases>
+        <test-case start='1608506254108' status='passed' stop='1608506254645'>
+            <name>check the existence of tunecore project in view</name>
+            <title>check the existence of tunecore project in view</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-87.0.4280.88'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1608506254645' status='passed' stop='1608506264762'>
+            <name>check the existence of modus project in view</name>
+            <title>check the existence of modus project in view</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-87.0.4280.88'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
